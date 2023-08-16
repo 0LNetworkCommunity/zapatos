@@ -52,7 +52,7 @@ jobs:
 
       - name: cargo release build
       # size optimized binary with profile.cli
-        run: cargo b --profile cli -p aptos-node
+        run: cargo b --profile cli -p aptos-node -p aptos
 
 ######## PUBLISH ########
 
